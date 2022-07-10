@@ -1,46 +1,49 @@
+// TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Sunflower',
-    subtitle: 'Passion Project',
-    image: '/images/projects/sunflower1.jpg',
-    link: 'https://github.com/ShelenElls/Sunflower-PersonalProject/blob/main/README.md',
-    date: '2022-5-01',
+    title: 'Socio',
+    subtitle: '2019 December',
+    link: 'https://github.com/Tesla-Atoz/Social_Post_website',
+    image: '/images/projects/Social_Post_website.png',
+    date: '2019-9-1',
     desc:
-      'Built for personal use at this stage. '
-      + 'Sunflower is a total income, debt, and goal management website '
-      + 'used to separate and organize different streams of debt and income '
-      + 'alongside predictive models to assist the average american in becoming debt free.',
+      'A web application where a user can create a account, login, create, delete posts. It also enhances user to create groups and join other groups. It is basically authentication of user and performing CRUD operations over data.',
   },
   {
-    title: 'Conference GO',
-    subtitle: 'Resource for in-person and virtual conference planner for attendees and presenters',
-    image: '/images/projects/conferencego1.jpg',
-    link: 'https://github.com/ShelenElls/ConferenceJS/blob/main/README.md',
-    date: '2022-6-01',
+    title: 'News Aggregator with voice assistant',
+    subtitle: 'Alan-Ai and ReactJs',
+    link: 'https://react-alan-ai.netlify.app',
+    image: '/images/projects/Alan-Ai.png',
+    date: '2019-12-1',
     desc:
-      'A full-stack project utalizing Python, Javascript, SQL, Django and React.'
-      + 'This project incorporates an API to collect information such as the weather '
-      + 'for the city at any given conference location.'
+      'A web application where it collects and displays top news articles from various resources by categories (ex: Business, Entertainment), Terms (ex : Bitcoin, Smartphones) and also by sources (ex: CNN, BBC News). Navigation is enabled through a incredible voice assistant ',
   },
   {
-    title: 'CarCar',
-    subtitle: 'The premiere solution for automobile dealership management!',
-    image: '/images/projects/carcarpic.jpg',
-    link: 'https://github.com/ShelenElls/CarCar/blob/main/README.md',
-    date: '2022-6-01',
+    title: 'Customize Burger',
+    subtitle: 'Are you hungry? Just make a burger and place a order',
+    link: 'https://github.com/Tesla-Atoz/Burger_project',
+    image: '/images/projects/burger.png',
+    date: '2020-4-2',
     desc:
-      'A full-stack project utalizing Python, Javascript, SQL, Django and React.'
-      + ''
+     'A web application where one can customize a burger themselves, place a order and check-out.(ex: A burger with 2cheese slices, bacon, 2 veg nuggets) ',
   },
   {
-    title: 'Wardobify',
-    subtitle: 'Need to keep track of your shoes and hats? We have the solution for you!',
-    image: '/images/projects/shoe1.jpg',
-    link: 'https://github.com/ShelenElls/Wardrobify/blob/main/README.md',
-    date: '2022-6-01',
+    title: 'Artificial Neural Networks (Classification)',
+    subtitle: 'Predicts whether a bank customer leaves the bank or not',
+    link: 'https://github.com/Tesla-Atoz/artificialneuralnetwork',
+    image: '/images/projects/interactive gif.gif',
+    date: '2021-2-4',
     desc:
-      'A full-stack project utalizing Python, Javascript, SQL, Django and React.'
-      + ''
+     'A deep learning project where the model predicts whether a bank customer exits or not based on his/her previous data  ',
+  },
+  {
+    title: 'Artificial Neural Networks (Regression)',
+    subtitle: 'Predict power values',
+    link: 'https://github.com/Tesla-Atoz/neuralNetworkForRegressionProblem',
+    image: '/images/projects/all_deviations.png',
+    date: '2021-2-2',
+    desc:
+     'A deep learning model for predicting power consumption. This is regression problem. Detailed with comments. ',
   },
 ];
 

@@ -1,28 +1,51 @@
+
 # Intro
-My name is Shelen. I was born and raised in Arizona in a small town right next to no where. I have three wonderful children. In my pursuit of life I have found many fullfilling careers, always in the fields of Science and Mathematics. 
+
+I am vegetarian, programmer and problem solver. I practice my skills almost every day and strive to be my prime/best. My current primary interests are 'Data Science' and 'Software Engineering'.
+
+I check interesting projects on the web in the mean time.One such one I found is 'Gitstats'. I am particularly interested in social impact, education. I teach some of my class mates some technologies I am comfortable with. I am based in Hyderabad, Telangana, India.
+
+# Currently
+
+At Blaze Automation Services, I work as 'Junior Machine Learning Intern'. 
+
+# Some history
+
+- I wonder about cosmos and you may find my in-game id of games I play would be ###Cosmos###
+
+- I love physics and solving problems thrills me alot. Mathematics is fun too :) .
+
+- I got 1869 Rank in State Level Entrance Exam EAMCET
+- I will be active on Kaggle.
 
 
+You can ask me in person for other stories that I'm afraid to share with the internet.
 
-# What brings me joy
+# I like
 
-- Thunderstorms in the desert. 
-- A different error than the one I was working to fix. 
-- Music, including but not limited to this [Metal](https://open.spotify.com/playlist/3B6PihcBWVd00LOPnvWQnq?si=28354b591f4b4471) playlist I made to study to. Please contribute. 
-- Classic [Literature](https://www.goodreads.com/shelen_ells), Romance, Horror and Thriller Novels
-- Podcasts about neuroscience, current events and economics. ([The Journal](https://www.wsj.com/podcasts/the-journal), [Planet Money](https://www.npr.org/sections/money/), [Dan Carlin's Hardcore History](https://www.dancarlin.com/hardcore-history-series/), [Hidden Brain](https://www.npr.org/series/423302056/hidden-brain) and others)
+- Cooking
+- Bike Riding
+- Space
+- Summer
+- Medium Articles
+- Curd Rice
+- [Good design](/)
+- Photography
+- First-person-shooter games like Valorant
 
+# Personalities who had influence on me
 
-# Fun facts
-I've been published in a magazine before. 
-I skated in a Roller Derby league with my mother.
-I enjoy painting with, water-based acrylic on cold press water-color paper. 
-I've self-published a short story i'm too embarassed to list on this website. 
+- Brahmarshi Pitamaha Patriji 
+- Elon Musk
+- A.P.J Abdul Kalam
+- Srinivasa Ramanujan
 
 
 # I dream of
 
 - always finding inspiration.
-- homesteading in a quiet place near water.
-- staying eager to learn new things. 
+- enabling a brighter future.
+- doing better.
+- no one checking the commit history for earlier drafts of this file.
 
 

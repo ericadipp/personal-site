@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 import Analytics from '../components/Template/Analytics';
 import Navigation from '../components/Template/Navigation';
@@ -8,10 +8,10 @@ import SideBar from '../components/Template/SideBar';
 import ScrollToTop from '../components/Template/ScrollToTop';
 
 const Main = (props) => (
-  <HelmetProvider>
+  <>
     <Analytics />
     <ScrollToTop />
-    <Helmet titleTemplate="%s | Shelen R. Ells" defaultTitle="Shelen R. Ells" defer={false}>
+    <Helmet titleTemplate="%s | Dinesh Pandikona " defaultTitle="Dinesh Pandikona">
       {props.title && <title>{props.title}</title>}
       <meta name="description" content={props.description} />
     </Helmet>
@@ -22,7 +22,7 @@ const Main = (props) => (
       </div>
       {props.fullPage ? null : <SideBar />}
     </div>
-  </HelmetProvider>
+  </>
 );
 
 Main.propTypes = {
@@ -39,7 +39,7 @@ Main.defaultProps = {
   children: null,
   fullPage: false,
   title: null,
-  description: "Shelen Ells' personal website.",
+  description: "Dinesh Pandikona's personal website.",
 };
 
 export default Main;

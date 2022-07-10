@@ -5,22 +5,25 @@ import Main from '../layouts/Main';
 
 const Index = () => (
   <Main
-    description={"Shelen R. Ells's personal website. "}
+    description={"Dinesh Pandikona's personal website. Hyderabad based VNR VJIET under-graduate"}
   >
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/">About this site</Link></h2>
           <p>
-            Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-            or you can check out my {' '}
-            <Link to="/resume">resume</Link>, {' '}
-            <Link to="/projects">projects</Link>, {' '}
-            or <Link to="/contact">contact</Link> me.
+            A beautiful, responsive, statically-generated,
+            react application written with modern Javascript.
           </p>
         </div>
       </header>
-      <p> Source available <a href="https://github.com/ShelenElls">here</a> </p>
+      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
+        or you can check out my {' '}
+        <Link to="/resume">resume</Link>, {' '}
+        <Link to="/projects">projects</Link>, {' '}
+        or <Link to="/contact">contact</Link> me.
+      </p>
+      <p> Source available <a href="https://github.com/Tesla-Atoz/dineshpandikona">here</a>.</p>
     </article>
   </Main>
 );

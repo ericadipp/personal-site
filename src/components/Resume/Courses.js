@@ -5,8 +5,10 @@ import Course from './Courses/Course';
 
 const getRows = (courses) => courses.sort((a, b) => {
   let ret = 0;
-  if (a.name > b.name) ret = -1;
-  else if (a.name < b.name) ret = 1;
+  if (a.university > b.university) ret = -1;
+  else if (a.university < b.university) ret = 1;
+  else if (a.number > b.number) ret = 1;
+  else if (a.number < b.number) ret = -1;
   return ret;
 }).map((course, idx) => (
   <Course
@@ -20,7 +22,7 @@ const Courses = ({ data }) => (
   <div className="courses">
     <div className="link-to" id="courses" />
     <div className="title">
-      <h3>Technical Skills</h3>
+      <h3>Selected Courses</h3>
     </div>
     <ul className="course-list">
       {getRows(data)}
@@ -31,6 +33,9 @@ const Courses = ({ data }) => (
 Courses.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     title: PropTypes.string,
+    number: PropTypes.string,
+    link: PropTypes.string,
+    university: PropTypes.string,
   })),
 };
 

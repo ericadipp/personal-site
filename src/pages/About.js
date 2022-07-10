@@ -18,20 +18,21 @@ const LinkRenderer = ({ ...children }) => <Link {...children} />;
 const About = () => (
   <Main
     title="About"
-    description="Learn about Shelen"
+    description="Learn about Dinesh.P"
   >
     <article className="post markdown" id="about">
       <header>
         <div className="title">
           <h2 data-testid="heading"><Link to="/about">About Me</Link></h2>
-          <p>(in {count} words or so)</p>
+          <p>(in about {count} words)</p>
         </div>
       </header>
       <ReactMarkdown
-        children={markdown}
-        components={{
+        source={markdown}
+        renderers={{
           Link: LinkRenderer,
         }}
+        escapeHtml={false}
       />
     </article>
   </Main>

@@ -1,28 +1,20 @@
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons/faLinkedinIn';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons/faEnvelope';
-// See https://fontawesome.com/icons?d=gallery&s=brands,regular&m=free
-// to add other icons.
 
 const data = [
   {
-    link: 'https://github.com/ShelenElls',
+    link: 'https://github.com/Tesla-Atoz',
     label: 'Github',
     icon: faGithub,
   },
   {
-    link: 'https://www.linkedin.com/in/shelenells/',
+    link: 'https://www.linkedin.com/in/dinesh-pandikona',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: 'https://twitter.com/Shelen_E',
-    label: 'Twitter',
-    icon: faTwitter,
-  },
-  {
-    link: 'mailto:shelen.ells@gmail.com',
+    link: 'mailto:pandikonadinesh13@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },

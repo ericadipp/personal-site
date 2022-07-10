@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import PropTypes from 'prop-types';
 
 // Validates the first half of an email address.
 const validateText = (text) => {
@@ -12,8 +11,20 @@ const validateText = (text) => {
 const messages = [
   'hi',
   'hello',
-  'thanks-for-stopping-by',
-  'emails-containing-jokes-are-appreciated',
+  'hola',
+  'you-can-email-me-at-literally-anything! Really',
+  'well, not anything. But most things',
+  'like-this',
+  'or-this',
+  'but not this :(  ',
+  'you.can.also.email.me.with.specific.topics.like',
+  'just-saying-hi',
+  'please-work-for-us',
+  'help',
+  'admin',
+  'or-I-really-like-your-website',
+  'I\'ll-stop-distracting-you-now',
+  'thanks',
 ];
 
 const useInterval = (callback, delay) => {
@@ -34,13 +45,13 @@ const useInterval = (callback, delay) => {
   }, [delay]);
 };
 
-const EmailLink = ({ loopMessage }) => {
+const EmailLink = () => {
   const hold = 50; // ticks to wait after message is complete before rendering next message
   const delay = 50; // tick length in mS
 
   const [idx, updateIter] = useState(0); // points to current message
   const [message, updateMessage] = useState(messages[idx]);
-  const [char, updateChar] = useState(0); // points to current char
+  const [char, updateChar] = useState(messages[idx].length); // points to current char
   const [isActive, setIsActive] = useState(true); // disable when all messages are printed
 
   useInterval(() => {
@@ -51,12 +62,7 @@ const EmailLink = ({ loopMessage }) => {
       newChar = 0;
     }
     if (newIdx === messages.length) {
-      if (loopMessage) {
-        updateIter(0);
-        updateChar(0);
-      } else {
-        setIsActive(false);
-      }
+      setIsActive(false);
     } else {
       updateMessage(messages[newIdx].slice(0, newChar));
       updateIter(newIdx);
@@ -71,20 +77,12 @@ const EmailLink = ({ loopMessage }) => {
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? `mailto:shelen.ells@gmail.com` : ''}>
+      <a href={validateText(message) ? `mailto:${message}@mldangelo.com` : ''}>
         <span>{message}</span>
-        <span>@shelenells.com</span>
+        <span>@mldangelo.com</span>
       </a>
     </div>
   );
-};
-
-EmailLink.defaultProps = {
-  loopMessage: false,
-};
-
-EmailLink.propTypes = {
-  loopMessage: PropTypes.bool,
 };
 
 export default EmailLink;
